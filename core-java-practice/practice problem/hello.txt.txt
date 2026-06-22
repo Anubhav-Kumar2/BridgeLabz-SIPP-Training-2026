@@ -1,0 +1,125 @@
+
+10/06/26
+Arrays:
+int[] arr=new arr[10];
+datatype[] refrence=keyword refrence[size];  //data stored in heap
+two types of array: 1D and 2D
+
+Q://remove duplicate from array
+{1,13,123,1,12,1,9,11,11,0,121,123}
+
+Q://rotate it k times
+
+//whenever we use new Keyword data stored in heap
+
+
+11/06/26
+
+
+String:
+
+String is the combination of characters  //data stored in heap
+
+each letter contain 2 bytes .  ex: hii 2+2+2=6bytes
+
+inbuild keyword:
+.length
+.trim
+.charAt
+.equals
+.toLowerCase
+.toUpperCase
+.to Compare
+.append
+.concat
+
+//whenever we use == with respect to string it never compare values it compare mem address
+
+
+Two ways to create a sting
+one is 
+String s="Hii"
+sec is imp*
+String str=new String("Hii")
+Added to string .append method
+
+
+//JDK version is from 
+1 to 26
+String buffer,String Builder these can only we made by new keyword and both are mutable
+major diff btw string and (StringBuffer, String builder) is thread safety and memory location
+
+
+//reverse a sting
+for(int i=n.length-1;i>=0;i--)
+str=str.charAt(i)
+
+
+
+Q// I/p: I love coding
+o/p: I love gnidoc
+Sting str="I Love coding"
+String[] arr=st.split("")
+int lastindex=arr.length;
+String str=arr(I);
+str.reverse();
+
+
+15/06/2026:
+
+Methods/functions one word ans is reusability
+a block of code with 
+
+Syntax of method: public(access modifier) static/non-static void subtract(){} //static
+public void add(){}       //non-static   
+static to non-static ny calling object
+access modifier types: public, private, default, protector
+
+
+
+
+
+class student
+int id;
+String
+
+
+static variable: 
+non-static variable:
+
+
+16/06/26:
+
+Recursion : function calling itself
+
+one thing is calling method second is break these are two imp.things in recursion
+
+Whenever we use recursive method calls in java mem. used in java recursion : Call stack  
+recusion never used static method it uses return type
+
+
+syntax: Class demo{
+                public int sumofNaturalnno.(int n){
+                    if(n>0) return 
+                    return  n+sum*(n-1);}
+}
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
